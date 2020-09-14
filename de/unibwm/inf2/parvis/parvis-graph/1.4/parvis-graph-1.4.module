@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "gvqowly72fgmpnzclrrdx3f2im"
+      "buildId": "qrwvlddcxvgo3oxtirgdxbwkn4"
     }
   },
   "variants": [
@@ -29,10 +29,10 @@
           "name": "parvis-graph-1.4.jar",
           "url": "parvis-graph-1.4.jar",
           "size": 6650906,
-          "sha512": "ad9c14784a946cf8047e6ecdee04b1c9653414e14e9dacd65187bb3c5f5ed74f9fbe18674f7f81de061a5a83e9e5411ece77fccf459cec48e32376b96c60cd8b",
-          "sha256": "79e36827127c08aaa8ac0dd25011b4dbbc11aeb8f40c876853636650e07d0de0",
-          "sha1": "5ac723afc7adb61c7d706e7f6973bd6a1c4fbede",
-          "md5": "7227815a9a95c8f5702d704be86c57c6"
+          "sha512": "dc4844415d5e4b7afd7c52562866683f55d254099a3df9f94856b6941d3eac3a86d57c35afe05f53e261225a75dd2bdc71f25f8de481cc6c8aec88642d05fec8",
+          "sha256": "7d5041e8c0388cac2c3155c9040fedf3b13fea1fb70035f1a88d7b8e5901af9a",
+          "sha1": "44eb7ae164d1d7b9b0b4074c6c85565d0dff63c6",
+          "md5": "42def05e302e0e2313ee8bb7907cffba"
         }
       ]
     },
@@ -80,10 +80,10 @@
           "name": "parvis-graph-1.4.jar",
           "url": "parvis-graph-1.4.jar",
           "size": 6650906,
-          "sha512": "ad9c14784a946cf8047e6ecdee04b1c9653414e14e9dacd65187bb3c5f5ed74f9fbe18674f7f81de061a5a83e9e5411ece77fccf459cec48e32376b96c60cd8b",
-          "sha256": "79e36827127c08aaa8ac0dd25011b4dbbc11aeb8f40c876853636650e07d0de0",
-          "sha1": "5ac723afc7adb61c7d706e7f6973bd6a1c4fbede",
-          "md5": "7227815a9a95c8f5702d704be86c57c6"
+          "sha512": "dc4844415d5e4b7afd7c52562866683f55d254099a3df9f94856b6941d3eac3a86d57c35afe05f53e261225a75dd2bdc71f25f8de481cc6c8aec88642d05fec8",
+          "sha256": "7d5041e8c0388cac2c3155c9040fedf3b13fea1fb70035f1a88d7b8e5901af9a",
+          "sha1": "44eb7ae164d1d7b9b0b4074c6c85565d0dff63c6",
+          "md5": "42def05e302e0e2313ee8bb7907cffba"
         }
       ]
     }
