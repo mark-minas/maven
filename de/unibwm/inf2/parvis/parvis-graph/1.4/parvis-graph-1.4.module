@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2.parvis",
+    "module": "parvis-graph",
+    "version": "1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "gvqowly72fgmpnzclrrdx3f2im"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "parvis-graph-1.4.jar",
+          "url": "parvis-graph-1.4.jar",
+          "size": 6650906,
+          "sha512": "ad9c14784a946cf8047e6ecdee04b1c9653414e14e9dacd65187bb3c5f5ed74f9fbe18674f7f81de061a5a83e9e5411ece77fccf459cec48e32376b96c60cd8b",
+          "sha256": "79e36827127c08aaa8ac0dd25011b4dbbc11aeb8f40c876853636650e07d0de0",
+          "sha1": "5ac723afc7adb61c7d706e7f6973bd6a1c4fbede",
+          "md5": "7227815a9a95c8f5702d704be86c57c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ParVis",
+          "module": "base",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parvis-graph-1.4.jar",
+          "url": "parvis-graph-1.4.jar",
+          "size": 6650906,
+          "sha512": "ad9c14784a946cf8047e6ecdee04b1c9653414e14e9dacd65187bb3c5f5ed74f9fbe18674f7f81de061a5a83e9e5411ece77fccf459cec48e32376b96c60cd8b",
+          "sha256": "79e36827127c08aaa8ac0dd25011b4dbbc11aeb8f40c876853636650e07d0de0",
+          "sha1": "5ac723afc7adb61c7d706e7f6973bd6a1c4fbede",
+          "md5": "7227815a9a95c8f5702d704be86c57c6"
+        }
+      ]
+    }
+  ]
+}
