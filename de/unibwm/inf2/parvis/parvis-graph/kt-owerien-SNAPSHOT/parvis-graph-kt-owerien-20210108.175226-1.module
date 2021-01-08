@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2.parvis",
+    "module": "parvis-graph",
+    "version": "kt-owerien-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "mbh7wupypnh2lluswt7jhfdtre"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "parvis-graph-kt-owerien-SNAPSHOT.jar",
+          "url": "parvis-graph-kt-owerien-SNAPSHOT.jar",
+          "size": 7181062,
+          "sha512": "83f11f25bdb5c2d2c3c8d1701a646bd65cd7f7043272b2362b0047df678685b06ab6f64482e201ac8abb12bf075d0fb2bf25391e2f8dcfbf9b69946546f03a01",
+          "sha256": "e2f097c4fdf8265794b34a61377e40a7954812844f33a118ddd3a3af7c3b0fd2",
+          "sha1": "5ed44c1d716d415a1a717049d88fb14428bb0e6b",
+          "md5": "390d8e5c85e1d9943d680d9a66ca9864"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ParVis",
+          "module": "base",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parvis-graph-kt-owerien-SNAPSHOT.jar",
+          "url": "parvis-graph-kt-owerien-SNAPSHOT.jar",
+          "size": 7181062,
+          "sha512": "83f11f25bdb5c2d2c3c8d1701a646bd65cd7f7043272b2362b0047df678685b06ab6f64482e201ac8abb12bf075d0fb2bf25391e2f8dcfbf9b69946546f03a01",
+          "sha256": "e2f097c4fdf8265794b34a61377e40a7954812844f33a118ddd3a3af7c3b0fd2",
+          "sha1": "5ed44c1d716d415a1a717049d88fb14428bb0e6b",
+          "md5": "390d8e5c85e1d9943d680d9a66ca9864"
+        }
+      ]
+    }
+  ]
+}

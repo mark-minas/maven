@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.unibwm.inf2.parvis</groupId>
+  <artifactId>parvis-graph</artifactId>
+  <version>kt-owerien-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210108.175226</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210108175226</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>kt-owerien-20210108.175226-1</value>
+        <updated>20210108175226</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>kt-owerien-20210108.175226-1</value>
+        <updated>20210108175226</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>kt-owerien-20210108.175226-1</value>
+        <updated>20210108175226</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
