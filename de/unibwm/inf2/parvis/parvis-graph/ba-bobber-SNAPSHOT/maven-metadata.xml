@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.unibwm.inf2.parvis</groupId>
+  <artifactId>parvis-graph</artifactId>
+  <version>ba-bobber-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210108.170748</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210108170748</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>ba-bobber-20210108.170748-1</value>
+        <updated>20210108170748</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>ba-bobber-20210108.170748-1</value>
+        <updated>20210108170748</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>ba-bobber-20210108.170748-1</value>
+        <updated>20210108170748</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

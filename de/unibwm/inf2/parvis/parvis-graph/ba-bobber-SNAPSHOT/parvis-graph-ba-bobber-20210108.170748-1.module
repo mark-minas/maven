@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2.parvis",
+    "module": "parvis-graph",
+    "version": "ba-bobber-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "pcctqxdhkjcydd7qpsthhzaf2i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "parvis-graph-ba-bobber-SNAPSHOT.jar",
+          "url": "parvis-graph-ba-bobber-SNAPSHOT.jar",
+          "size": 7184955,
+          "sha512": "7f696343284a7baf36da46372973bdd83e9f11ec28fc1e74a39516cc2fe9523212cafaf25886c80bf8298a0beb67c402b12728a065ebf5e7d833bc0e23d724e9",
+          "sha256": "6c53fa58f929bf5eee602f31b3fd7076503ca092a76f16b571189670974c856f",
+          "sha1": "a4a1186c9fd052a1ee8a9bd16e56b795c883e1fa",
+          "md5": "aa3a87021cac3aa8f45060fce959ed9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ParVis",
+          "module": "base",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parvis-graph-ba-bobber-SNAPSHOT.jar",
+          "url": "parvis-graph-ba-bobber-SNAPSHOT.jar",
+          "size": 7184955,
+          "sha512": "7f696343284a7baf36da46372973bdd83e9f11ec28fc1e74a39516cc2fe9523212cafaf25886c80bf8298a0beb67c402b12728a065ebf5e7d833bc0e23d724e9",
+          "sha256": "6c53fa58f929bf5eee602f31b3fd7076503ca092a76f16b571189670974c856f",
+          "sha1": "a4a1186c9fd052a1ee8a9bd16e56b795c883e1fa",
+          "md5": "aa3a87021cac3aa8f45060fce959ed9a"
+        }
+      ]
+    }
+  ]
+}
