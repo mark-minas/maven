@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.javamodularity",
+    "module": "moduleplugin",
+    "version": "1.7.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "rq3wriithzd4ljpdvryekcfnie"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.13.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moduleplugin-1.7.1-SNAPSHOT.jar",
+          "url": "moduleplugin-1.7.1-SNAPSHOT.jar",
+          "size": 1761514,
+          "sha512": "0ed296f34520b4d0ee793341365ca4362054fc99c5b18c1101d7a9e64811d08b33668bdfc299adc6b2b6f8dd6e1b90259e21e15f780d0cea678d2441d487a138",
+          "sha256": "a2b4630a764eeb5ca6e69c921379495e1374d48eaacfbf88ea9adda981a63d29",
+          "sha1": "1abf92dfb4fde23c8e5753708202497e74d7964c",
+          "md5": "5bd401a3d2b42faf62bc8beaa2858864"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jooq",
+          "module": "joor",
+          "version": {
+            "requires": "0.9.13"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.13.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moduleplugin-1.7.1-SNAPSHOT.jar",
+          "url": "moduleplugin-1.7.1-SNAPSHOT.jar",
+          "size": 1761514,
+          "sha512": "0ed296f34520b4d0ee793341365ca4362054fc99c5b18c1101d7a9e64811d08b33668bdfc299adc6b2b6f8dd6e1b90259e21e15f780d0cea678d2441d487a138",
+          "sha256": "a2b4630a764eeb5ca6e69c921379495e1374d48eaacfbf88ea9adda981a63d29",
+          "sha1": "1abf92dfb4fde23c8e5753708202497e74d7964c",
+          "md5": "5bd401a3d2b42faf62bc8beaa2858864"
+        }
+      ]
+    }
+  ]
+}

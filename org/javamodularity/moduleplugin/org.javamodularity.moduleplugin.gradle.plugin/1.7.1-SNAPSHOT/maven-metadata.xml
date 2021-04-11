@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.javamodularity.moduleplugin</groupId>
+  <artifactId>org.javamodularity.moduleplugin.gradle.plugin</artifactId>
+  <version>1.7.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210411.174030</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210411174030</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.7.1-20210411.174030-1</value>
+        <updated>20210411174030</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
