@@ -27,11 +27,11 @@
         {
           "name": "parvis-graph-1.6.1.jar",
           "url": "parvis-graph-1.6.1.jar",
-          "size": 7180037,
-          "sha512": "53bf33725f9db6f671c007ca0446d598aa89dbf561a38132a7fbe178e25a81f76e1556c72345e1a6de3589315abcd37fcfd970ed722f8a43cef621ad7603d337",
-          "sha256": "5e947cfd24b0569a5c1da72371e8cc62ff69f0fef880a1b3a68afd077e3d907a",
-          "sha1": "37ba870a855a65243b0c03555c47a20da3d863ca",
-          "md5": "f547144a65a2d0e469394968d8855636"
+          "size": 7180653,
+          "sha512": "d3154f0a79cbf7204310dc08bddae6db6a4d9f2c2377ed249cc15277e4563af1655439321507cba4915a7236e679d0553908472e5d77bc393bb2a22750c20e78",
+          "sha256": "59198575224a4707ab868345b5374e12e1d0762ce49c51c8b7a2527e71e771dd",
+          "sha1": "485a8401a4d709b1b1b84774612d19d07cfe9d74",
+          "md5": "aa5516cb61dec3d12acd07b632aa7fb4"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "parvis-graph-1.6.1.jar",
           "url": "parvis-graph-1.6.1.jar",
-          "size": 7180037,
-          "sha512": "53bf33725f9db6f671c007ca0446d598aa89dbf561a38132a7fbe178e25a81f76e1556c72345e1a6de3589315abcd37fcfd970ed722f8a43cef621ad7603d337",
-          "sha256": "5e947cfd24b0569a5c1da72371e8cc62ff69f0fef880a1b3a68afd077e3d907a",
-          "sha1": "37ba870a855a65243b0c03555c47a20da3d863ca",
-          "md5": "f547144a65a2d0e469394968d8855636"
+          "size": 7180653,
+          "sha512": "d3154f0a79cbf7204310dc08bddae6db6a4d9f2c2377ed249cc15277e4563af1655439321507cba4915a7236e679d0553908472e5d77bc393bb2a22750c20e78",
+          "sha256": "59198575224a4707ab868345b5374e12e1d0762ce49c51c8b7a2527e71e771dd",
+          "sha1": "485a8401a4d709b1b1b84774612d19d07cfe9d74",
+          "md5": "aa5516cb61dec3d12acd07b632aa7fb4"
         }
       ]
     }
