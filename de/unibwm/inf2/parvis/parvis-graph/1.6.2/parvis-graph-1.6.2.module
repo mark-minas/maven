@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2.parvis",
+    "module": "parvis-graph",
+    "version": "1.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "parvis-graph-1.6.2.jar",
+          "url": "parvis-graph-1.6.2.jar",
+          "size": 7180659,
+          "sha512": "bc9a80da8afeac3f00b72238571afb776c9c7ee046f189362e0af6f4e5df3bd83771bf26e3a75769cc2049783b6f05dce5f094c9aff726ca8df3387a3a64e734",
+          "sha256": "17466f3f61092b0b5500d7fe2c00728654ca1975fa288963273815c9c793796b",
+          "sha1": "c352706d14126d55963010bf23904d26f322443c",
+          "md5": "49b7652caea7255dfe14a1deed91b75a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ParVis",
+          "module": "base",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parvis-graph-1.6.2.jar",
+          "url": "parvis-graph-1.6.2.jar",
+          "size": 7180659,
+          "sha512": "bc9a80da8afeac3f00b72238571afb776c9c7ee046f189362e0af6f4e5df3bd83771bf26e3a75769cc2049783b6f05dce5f094c9aff726ca8df3387a3a64e734",
+          "sha256": "17466f3f61092b0b5500d7fe2c00728654ca1975fa288963273815c9c793796b",
+          "sha1": "c352706d14126d55963010bf23904d26f322443c",
+          "md5": "49b7652caea7255dfe14a1deed91b75a"
+        }
+      ]
+    }
+  ]
+}
