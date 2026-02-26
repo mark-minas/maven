@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2",
+    "module": "pp-annotations",
+    "version": "0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.1-SNAPSHOT.jar",
+          "url": "pp-annotations-0.1-SNAPSHOT.jar",
+          "size": 8758,
+          "sha512": "6796a4157207058a8f39808a7abcb9916234bdbbc44f509fcd25f8dc1594dcb27c38d6a6fc98a9b810ad696c84c1b146ca2997cff70ddb1fd4050e18d6ad91c1",
+          "sha256": "ce5e7795529711f30e565c14f6f57700e0b780e4cc9db14a7f2eba67ca1112b9",
+          "sha1": "250b1af20fd30c9a178ca51af21a1f75babf2747",
+          "md5": "ff881f61835ef34e4b669efe6156446c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.1-SNAPSHOT.jar",
+          "url": "pp-annotations-0.1-SNAPSHOT.jar",
+          "size": 8758,
+          "sha512": "6796a4157207058a8f39808a7abcb9916234bdbbc44f509fcd25f8dc1594dcb27c38d6a6fc98a9b810ad696c84c1b146ca2997cff70ddb1fd4050e18d6ad91c1",
+          "sha256": "ce5e7795529711f30e565c14f6f57700e0b780e4cc9db14a7f2eba67ca1112b9",
+          "sha1": "250b1af20fd30c9a178ca51af21a1f75babf2747",
+          "md5": "ff881f61835ef34e4b669efe6156446c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.1-SNAPSHOT-javadoc.jar",
+          "url": "pp-annotations-0.1-SNAPSHOT-javadoc.jar",
+          "size": 4186026,
+          "sha512": "4960546d03c8803e7e982086f193274b04e69b79b75555a25da649294745cb1cf67959ea4fed618c9180d0163ea0a97424421363191e2a6e2de18bacba73c8d3",
+          "sha256": "9f81659bc1516dc11c7891a4fe44624b4789490bbe4247907ded06cc78cc0212",
+          "sha1": "4f2c4e190957617fdf3e07f9153a2b14ff009fbd",
+          "md5": "ab28503af1cdd0170451cc4dbaa316da"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.1-SNAPSHOT-sources.jar",
+          "url": "pp-annotations-0.1-SNAPSHOT-sources.jar",
+          "size": 10599,
+          "sha512": "d6b80a4adca842a9a7404981fe9e604d0268463963d7303f91b4d6b79766f0a9256128f810b9f0fb8b3dc14cf45a8493f3be8aa97b16717dc14a96ece12ac273",
+          "sha256": "3caf3800c7cbc3b6b7296f0dac6f5db118417b959f6feaea1a8d5c20234f62fa",
+          "sha1": "edd094b7a6943024efa78f40be7314e599656a71",
+          "md5": "6c98762cf993b769381dce01397dd300"
+        }
+      ]
+    }
+  ]
+}

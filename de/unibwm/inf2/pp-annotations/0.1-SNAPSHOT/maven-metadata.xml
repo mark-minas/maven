@@ -3,26 +3,38 @@
   <groupId>de.unibwm.inf2</groupId>
   <artifactId>pp-annotations</artifactId>
   <versioning>
-    <lastUpdated>20260226181711</lastUpdated>
+    <lastUpdated>20260226191201</lastUpdated>
     <snapshot>
-      <timestamp>20260226.181711</timestamp>
+      <timestamp>20260226.191201</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1-20260226.181711-1</value>
-        <updated>20260226181711</updated>
+        <value>0.1-20260226.191201-1</value>
+        <updated>20260226191201</updated>
       </snapshotVersion>
       <snapshotVersion>
+        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1-20260226.181711-1</value>
-        <updated>20260226181711</updated>
+        <value>0.1-20260226.191201-1</value>
+        <updated>20260226191201</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.1-20260226.191201-1</value>
+        <updated>20260226191201</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1-20260226.181711-1</value>
-        <updated>20260226181711</updated>
+        <value>0.1-20260226.191201-1</value>
+        <updated>20260226191201</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1-20260226.191201-1</value>
+        <updated>20260226191201</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
