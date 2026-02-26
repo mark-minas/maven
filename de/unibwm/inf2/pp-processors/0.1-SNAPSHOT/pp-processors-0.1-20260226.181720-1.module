@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2",
+    "module": "pp-processors",
+    "version": "0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pp-processors-0.1-SNAPSHOT.jar",
+          "url": "pp-processors-0.1-SNAPSHOT.jar",
+          "size": 91423,
+          "sha512": "ca46f1c4343ea9b2388836774e1eb19596ece6b6b0db77af854614e49fda5677341a3730239398ca708cd10d629138a4fe9a58a8eb9ab1a65ae7a9e7b6f8777b",
+          "sha256": "e5899ed741202ad2c6660c6376f3e11df4cd7820539336a5bea54f0370bea00a",
+          "sha1": "f1009c31fa27cf2f001d97f1a0aa3d76d119afc1",
+          "md5": "ca18c4e908339bb623b164b4fe28299d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.51.1"
+          }
+        },
+        {
+          "group": "de.unibwm.inf2",
+          "module": "pp-annotations",
+          "version": {
+            "requires": "0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.palantir.javapoet",
+          "module": "javapoet",
+          "version": {
+            "requires": "0.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-processors-0.1-SNAPSHOT.jar",
+          "url": "pp-processors-0.1-SNAPSHOT.jar",
+          "size": 91423,
+          "sha512": "ca46f1c4343ea9b2388836774e1eb19596ece6b6b0db77af854614e49fda5677341a3730239398ca708cd10d629138a4fe9a58a8eb9ab1a65ae7a9e7b6f8777b",
+          "sha256": "e5899ed741202ad2c6660c6376f3e11df4cd7820539336a5bea54f0370bea00a",
+          "sha1": "f1009c31fa27cf2f001d97f1a0aa3d76d119afc1",
+          "md5": "ca18c4e908339bb623b164b4fe28299d"
+        }
+      ]
+    }
+  ]
+}
