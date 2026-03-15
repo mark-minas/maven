@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2",
+    "module": "pp-processors",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pp-processors-0.3.jar",
+          "url": "pp-processors-0.3.jar",
+          "size": 123687,
+          "sha512": "d90f20f856c5624c168dd7a022705df8b693bb9fc66948848718d20cc5a8a2bc142c5b9de7b0d707e7cfb4cd74326d9b29e82af1fc8764ef651e2af23adad352",
+          "sha256": "8fd204dbedad378c353462b7022fadcf18ec8c7b76e7876d377a32637d250011",
+          "sha1": "4587bfa9c58a08c56dddcd78642f1b168a76669c",
+          "md5": "210d7a92f279a3660cd369c2d42f5a49"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.unibwm.inf2",
+          "module": "pp-annotations",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.51.1"
+          }
+        },
+        {
+          "group": "com.palantir.javapoet",
+          "module": "javapoet",
+          "version": {
+            "requires": "0.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-processors-0.3.jar",
+          "url": "pp-processors-0.3.jar",
+          "size": 123687,
+          "sha512": "d90f20f856c5624c168dd7a022705df8b693bb9fc66948848718d20cc5a8a2bc142c5b9de7b0d707e7cfb4cd74326d9b29e82af1fc8764ef651e2af23adad352",
+          "sha256": "8fd204dbedad378c353462b7022fadcf18ec8c7b76e7876d377a32637d250011",
+          "sha1": "4587bfa9c58a08c56dddcd78642f1b168a76669c",
+          "md5": "210d7a92f279a3660cd369c2d42f5a49"
+        }
+      ]
+    }
+  ]
+}

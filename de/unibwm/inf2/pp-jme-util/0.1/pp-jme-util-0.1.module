@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2",
+    "module": "pp-jme-util",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "de.unibwm.inf2",
+          "module": "pp-util",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.jmonkeyengine",
+          "module": "jme3-core",
+          "version": {
+            "requires": "3.8.1-stable"
+          }
+        },
+        {
+          "group": "com.simsilica",
+          "module": "lemur",
+          "version": {
+            "requires": "1.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-jme-util-0.1.jar",
+          "url": "pp-jme-util-0.1.jar",
+          "size": 270700,
+          "sha512": "fd36c4d75967fd0aa00e05436e803b8100523334c57e84d039347760f04c4339927e78bff27aaaa50a3b7740a7afa85b3af1224d4479eb7c7e509796ff1ae42a",
+          "sha256": "67d67ed2542aa6d44e5a28e92973c96ebc2659863dff0b82bf84dc40dc1d6f8d",
+          "sha1": "1f0794f1adac9a86be279867200afcaef222c2f1",
+          "md5": "98608245b6953cd5319536d7a9e80732"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.51.1"
+          }
+        },
+        {
+          "group": "de.unibwm.inf2",
+          "module": "pp-util",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.jmonkeyengine",
+          "module": "jme3-core",
+          "version": {
+            "requires": "3.8.1-stable"
+          }
+        },
+        {
+          "group": "com.simsilica",
+          "module": "lemur",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-jsr223",
+          "version": {
+            "requires": "5.0.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-jme-util-0.1.jar",
+          "url": "pp-jme-util-0.1.jar",
+          "size": 270700,
+          "sha512": "fd36c4d75967fd0aa00e05436e803b8100523334c57e84d039347760f04c4339927e78bff27aaaa50a3b7740a7afa85b3af1224d4479eb7c7e509796ff1ae42a",
+          "sha256": "67d67ed2542aa6d44e5a28e92973c96ebc2659863dff0b82bf84dc40dc1d6f8d",
+          "sha1": "1f0794f1adac9a86be279867200afcaef222c2f1",
+          "md5": "98608245b6953cd5319536d7a9e80732"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-jme-util-0.1-javadoc.jar",
+          "url": "pp-jme-util-0.1-javadoc.jar",
+          "size": 4258744,
+          "sha512": "6c359995b45d13e5b044188fc3801d3a24c1e3afab255cd4afea0fbd96b8e0997c742a3f6272b6b6966c9bad9abf117676d5e1d3b9ff54eec902596cbcc92cc9",
+          "sha256": "d66a3436c99cf63578df5d250ae67c33eeeda2ee593aa1f92952fb9eda4d5656",
+          "sha1": "acce1c62824c8ac1d4283948ec068ef0c03bb179",
+          "md5": "906ee6ed24918749e831177c0b7d993b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-jme-util-0.1-sources.jar",
+          "url": "pp-jme-util-0.1-sources.jar",
+          "size": 266423,
+          "sha512": "dfdad28935b7520e18470a2bc1ba0d7ca8f5c23ceac0ec77d94c9b7d3e08f1598a29865c61f2fbaca3f9d6185355c4656aea3538db6b1de95d93efe50d204ef3",
+          "sha256": "1581dbc281762a0d5aaa44e386ee780601acde799a6befb34dfc63fb524f93dc",
+          "sha1": "582f25fd277ccbe1f425b31e38d15406e769d49b",
+          "md5": "91948c6a2900dce69f776a12d8a14199"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.unibwm.inf2",
+    "module": "pp-annotations",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jmonkeyengine",
+          "module": "jme3-core",
+          "version": {
+            "requires": "3.8.1-stable"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-annotations-0.3.jar",
+          "url": "pp-annotations-0.3.jar",
+          "size": 15961,
+          "sha512": "10495452aa4342b3ce801179aa46a689a308996edb37ebe81928f55411a2a359f58d67b91d04df8076509faf21cfd1eeeee2f19086562c8b11b98a19f9632684",
+          "sha256": "284a93bb6852b387e82a619c7ade5bb6eb63becdecc5706bc30a4662e6336b67",
+          "sha1": "2e237f374f3aa321461fd79eafe3099efecdf7dc",
+          "md5": "1eb76dd21499e529ea51e603222d54c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jmonkeyengine",
+          "module": "jme3-core",
+          "version": {
+            "requires": "3.8.1-stable"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pp-annotations-0.3.jar",
+          "url": "pp-annotations-0.3.jar",
+          "size": 15961,
+          "sha512": "10495452aa4342b3ce801179aa46a689a308996edb37ebe81928f55411a2a359f58d67b91d04df8076509faf21cfd1eeeee2f19086562c8b11b98a19f9632684",
+          "sha256": "284a93bb6852b387e82a619c7ade5bb6eb63becdecc5706bc30a4662e6336b67",
+          "sha1": "2e237f374f3aa321461fd79eafe3099efecdf7dc",
+          "md5": "1eb76dd21499e529ea51e603222d54c0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.3-javadoc.jar",
+          "url": "pp-annotations-0.3-javadoc.jar",
+          "size": 4228494,
+          "sha512": "4781a70c71c9e2203603dc8e66014fc8848847aa6297ce91f46ff0b819a481fcbaa3b9ee6374fffa3f21506f94b98a4668fc98e196fefc1ddfaa8e92c1bb8ccd",
+          "sha256": "87f5e11460930067c38b7f29429a0c401450f39a1f27d73434025c29af574ea6",
+          "sha1": "286394d9714c2c7dffd3d99b367a17a5dbf5c6e0",
+          "md5": "7e9a2a3aefeeb079313d7709928702b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pp-annotations-0.3-sources.jar",
+          "url": "pp-annotations-0.3-sources.jar",
+          "size": 22960,
+          "sha512": "523fa84ae2861aedef5cd96fedcd9daf6ba091eb2b490a80bffae354f398c079051ebdcf25b684b38e9f8ebc058324c4fdf70682892a31b246fc9b1bc1964fe2",
+          "sha256": "8e09d41283d2b93cac0c0cd654a8edbee321b48c148cef4ae703063631401951",
+          "sha1": "19e4eb8280d4317b40140ca7ceb958d4558db585",
+          "md5": "152e96f78c8b9ac7b40f30741844b32c"
+        }
+      ]
+    }
+  ]
+}
